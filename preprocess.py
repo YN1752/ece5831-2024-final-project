@@ -31,4 +31,6 @@ def load_data():
         dataset.append(X)
         dataset.append(y)
 
+    print("Done")
+
     return dataset
