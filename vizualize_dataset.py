@@ -27,10 +27,13 @@ def display_image():
 
 if __name__ == "__main__":
 
+    # Input the dataset folder for prediction
     dir = f"dataset/{sys.argv[1]}"
 
+    # Read json file
     annot = json.load(open(glob.glob(f"{dir}/*.json")[0]))
 
+    # Randomly display 9 images with bounding box
     if len(sys.argv) == 2:
         num_images = 9
         indices = np.random.randint(0, len(annot["images"]), size = num_images)
@@ -40,6 +43,7 @@ if __name__ == "__main__":
             plt.tight_layout()
             plt.imshow(display_image())
 
+    # Display single image
     else:
         idx = sys.argv[2]
         plt.imshow(display_image())

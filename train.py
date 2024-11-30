@@ -3,8 +3,10 @@ from keras.models import Model
 from keras.callbacks import EarlyStopping
 from preprocess import load_data
 
+# Load preprocessed data
 X_train, Y_train, X_val, Y_val, _, _ = load_data()
 
+# Define double convolution layer
 def double_conv(input, filters):
 
     conv1 = Conv2D(filters, kernel_size=(3,3), padding="same")(input)
@@ -17,17 +19,20 @@ def double_conv(input, filters):
 
     return af2
 
+# Define encoder
 def encoder(input, filters):
     enc = double_conv(input, filters)
     pool = MaxPooling2D(strides=(2,2))(enc)
     return enc, pool
 
+# Define decoder
 def decoder(input, features, filters):
     upsamp = Conv2DTranspose(filters, kernel_size=(2,2), strides=(2,2), padding="same")(input)
     concat = Concatenate()([upsamp, features])
     out = double_conv(concat, filters)
     return out
 
+# Define U_Net architecture
 def U_Net(image_shape):
 
     input = Input(image_shape)
@@ -54,11 +59,15 @@ image_shape = (128, 128, 3)
 
 model = U_Net(image_shape)
 
+# Define Early Stopping with patience 5
 earlystop = EarlyStopping(monitor='val_loss',patience=5)
 callbacks_list = [earlystop]
 
+# Specify loss, optimizer and metrics
 model.compile(optimizer="adam",loss="BinaryCrossentropy",metrics=["accuracy"])
 
+# Train model
 model.fit(X_train,Y_train,epochs=50,validation_data=(X_val,Y_val),callbacks=callbacks_list)
 
+# Save model
 model.save("U_Net.keras")
