@@ -14,5 +14,6 @@ Dataset: https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-sema
 Presentation: https://docs.google.com/presentation/d/1NWWjN8O9xHF__m79rCFwqI_byLDv7sYF/edit?usp=sharing&ouid=106661166248148569804&rtpof=true&sd=true<br>
 Report: https://drive.google.com/file/d/17aovJlcu1gaIkN1KiB72GDWeAGqFn4hM/view?usp=sharing<br>
 Demo: https://youtu.be/-3EobRN6PD8<br>
+Model: https://drive.google.com/file/d/1BrLLVyB-YN--a3QQ8rSwcL8iabc8CQoa/view?usp=drive_link
 
 The trained model was too large to upload in GitHub. So I uploaded the model in Google Drive
