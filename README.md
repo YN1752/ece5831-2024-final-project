@@ -4,7 +4,7 @@ The project contains following scripts and notebooks:
 
 `doucumentation.ipynp`  : Used for testing functions before implementing them in the python scripts<br>
 `vizualize_dataset.py`  : Used for displaying the images in the dataset with bounding boxes showing the tumor region<br>
-`create_masks.py`       : Creat mask images which would act as target attribute for training the model<br>
+`create_masks.py`       : Create mask images which would act as target attribute for training the model<br>
 `preprocess.py`         : For prerocessing and loading the images for training<br>
 `train.py`              : For training the model<br>
 `predict.py`            : To display the predictions<br>
