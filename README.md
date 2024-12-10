@@ -1,6 +1,6 @@
 In this project I trained a U-Net architecture model for detecting tumor regions in the MRI scan images of the brain using Semantic Segmentation. I borrowed the dataset from Kaggle which contains various MRI scan images and data of the tumor region. Mask images were created which is basically creating ground truth images using the segmentation data. Preprocessing techniques were applied before training the model. Final result is a colormap image with detected tumor regions labeled with a different color.
 
-The project contains following scripts and notebook:
+The project contains following scripts and notebooks:
 
 `doucumentation.ipynp`  : Used for testing functions before implementing them in the python scripts<br>
 `vizualize_dataset.py`  : Used for displaying the images in the dataset with bounding boxes showing the tumor region<br>
