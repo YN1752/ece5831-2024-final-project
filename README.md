@@ -10,7 +10,7 @@ The project contains following scripts and notebooks:
 `predict.py`            : To display the predictions<br>
 `final-project.ipynb`   : To show how to run the scripts
 
-Dataset: https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation?select=train<br>
+Dataset: https://drive.google.com/file/d/1EeuEtN2WGJZM1ToK_9QXx1fU3LtBdJnE/view?usp=sharing<br>
 Presentation: https://docs.google.com/presentation/d/1NWWjN8O9xHF__m79rCFwqI_byLDv7sYF/edit?usp=sharing&ouid=106661166248148569804&rtpof=true&sd=true<br>
 Report: https://drive.google.com/file/d/17aovJlcu1gaIkN1KiB72GDWeAGqFn4hM/view?usp=sharing<br>
 Demo: https://youtu.be/-3EobRN6PD8<br>
