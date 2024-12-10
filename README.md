@@ -8,7 +8,7 @@ The project contains following scripts and notebooks:
 `preprocess.py`         : For prerocessing and loading the images for training<br>
 `train.py`              : For training the model<br>
 `predict.py`            : To display the predictions<br>
-`final-project.ipynb`   : To show how to run this project
+`final-project.ipynb`   : To show how to run the scripts
 
 Dataset: https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation?select=train<br>
 Presentation: https://docs.google.com/presentation/d/1NWWjN8O9xHF__m79rCFwqI_byLDv7sYF/edit?usp=sharing&ouid=106661166248148569804&rtpof=true&sd=true<br>
