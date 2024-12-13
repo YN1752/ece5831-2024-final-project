@@ -11,7 +11,7 @@ The project contains following scripts and notebooks:
 `final-project.ipynb`   : To show how to run the scripts
 
 Dataset: https://drive.google.com/file/d/1EeuEtN2WGJZM1ToK_9QXx1fU3LtBdJnE/view?usp=sharing<br>
-Presentation: https://docs.google.com/presentation/d/1NWWjN8O9xHF__m79rCFwqI_byLDv7sYF/edit?usp=sharing&ouid=106661166248148569804&rtpof=true&sd=true<br>
+Presentation: https://docs.google.com/presentation/d/1cjPYJYh3qi72pRlro83hyDv0amBk68Ma/edit?usp=drive_link&ouid=106661166248148569804&rtpof=true&sd=true<br>
 Report: https://drive.google.com/file/d/17aovJlcu1gaIkN1KiB72GDWeAGqFn4hM/view?usp=sharing<br>
 Demo: https://youtu.be/-3EobRN6PD8<br>
 Model: https://drive.google.com/file/d/1BrLLVyB-YN--a3QQ8rSwcL8iabc8CQoa/view?usp=drive_link
