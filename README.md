@@ -18,3 +18,4 @@ Demo Video: https://youtu.be/qmkUdwrKwlc<br>
 Model: https://drive.google.com/file/d/1BrLLVyB-YN--a3QQ8rSwcL8iabc8CQoa/view?usp=drive_link
 
 The trained model was too large to upload in GitHub. So I uploaded the model in Google Drive
+Drive Link: https://drive.google.com/drive/folders/1EknkFe_QwiIOnaABdWnzuD_wZdcsKlkG?usp=drive_link
